@@ -25,6 +25,7 @@ use Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle;
 use Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle;
 use Sensio\Bundle\DistributionBundle\SensioDistributionBundle;
 use Tedivm\StashBundle\TedivmStashBundle;
+use Hautelook\TemplatedUriBundle\HautelookTemplatedUriBundle;
 
 class EzPublishKernel extends Kernel
 {
@@ -45,6 +46,7 @@ class EzPublishKernel extends Kernel
             new SwiftmailerBundle(),
             new AsseticBundle(),
             new TedivmStashBundle(),
+            new HautelookTemplatedUriBundle(),
             new EzPublishCoreBundle(),
             new EzPublishLegacyBundle(),
             new EzSystemsDemoBundle(),

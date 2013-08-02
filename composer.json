@@ -13,6 +13,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/lolautruche/Archive.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bdunogier/TemplatedUriBundle.git"
         }
     ],
     "autoload": {
@@ -49,7 +53,8 @@
         "zetacomponents/persistent-object": "@dev",
         "zetacomponents/php-generator": "@dev",
         "zetacomponents/signal-slot": "@dev",
-        "zetacomponents/system-information": "@dev"
+        "zetacomponents/system-information": "@dev",
+        "hautelook/templated-uri-bundle": "dev-symfony-2.3"
     },
     "require-dev": {
         "behat/behat": "2.4.*",
