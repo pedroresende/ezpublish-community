@@ -54,7 +54,7 @@
         "zetacomponents/php-generator": "@dev",
         "zetacomponents/signal-slot": "@dev",
         "zetacomponents/system-information": "@dev",
-        "hautelook/templated-uri-bundle": "dev-symfony-2.3"
+        "hautelook/templated-uri-bundle": "dev-skip-requirements"
     },
     "require-dev": {
         "behat/behat": "2.4.*",
